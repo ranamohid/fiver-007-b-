@@ -20,17 +20,31 @@
     
   </head>
   <style>
-    
+    body{
+      background: lightslategrey;
+    }
+      .foot a{
+            font-weight: 900;
+            text-decoration: none;
+            color: white;
+            margin: 3px;
+        }
+
+        .oo{
+            padding-left: 3px ;
+            padding-right: 3px ;
+        }
+
     fieldset .vboutEmbedFormRow .title{
     font-weight: 900;
   }
 
-    *{overflow: hidden;}
     .col-12{margin-top: -100px;}
 
     @media only screen and (max-width: 768px) {
       *{overflow: visible;}
-      .col-12{margin-top: 100px;}
+
+      .col-12{margin-top: 600px;}
       #vboutEmbedFormWrapper-21004 form, #vboutEmbedFormWrapper-21004 label { color: black; }
       #vboutEmbedFormWrapper-21004 h1 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em; color: black;}
       #vboutEmbedFormWrapper-21004 label{font-size:14px;width:130px;text-align:right;color:black;float:none;width:auto;font-weight:500;text-align:left;line-height:20px;padding-top:0;margin-bottom:4px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
@@ -96,42 +110,13 @@
 
 
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
   <div class="site-wrap">
-
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-   
-    
-    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-      
-      <div class="container-fluid">
-        <div class="d-flex align-items-center">
-          <div class="site-logo mr-auto w-25"><a href="index.html">Logo</a></div>
-
-          <div class="mx-auto text-center">
-            
-          </div>
-
-          <div class="ml-auto w-25">
-
-            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
-          </div>
-        </div>
-      </div>
-      
-    </header>
-
     <div class="intro-section" id="home-section">
-      
       <div class="slide-1" style="background-image: url('images/hero_1.jpg');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center">
+            <h1 style="margin: 25px; color: slategray;"> Logo </h1>
             <div class="col-12">
               <div class="row align-items-center">
                 <div class="col-lg-6 mb-4">
@@ -168,15 +153,33 @@
                     </form>
                   </div>
                 </div>
+                
               </div>
+              
             </div>
             
+     <!--================ Footer Start=============-->
+     <footer style="width:100%; text-align: center; justify-content: center; z-index: 999;" >
+      <div class="main" style="border-top: 3px solid grey; width: 90%; margin: auto; display: flex; flex-direction: column; ">
+          <div class="logo" style=" margin: auto">
+              <h1 style="color: #777777; margin-bottom: 5px ; margin-top: 10px;" >Logo</h1>
+          </div>
+         <div style="margin: auto; padding: 5px; color: white; font-weight: 400;">
+          2412123 Orlando way, Orlando FL 32369
+         </div>
+         <div class="foot" style="display: flex; flex-direction: row; margin: auto;">
+          <a href=""> Terms & Conditions </a>
+          <a class="oo" href="" style="border-left: 1px solid white ; border-right: 1px solid white"> Privacy Policy </a>
+          <a href="">  Contact Us </a>
+         </div>
+      </div>  
+  </footer>
+  <!--Footer End -->
+   
           </div>
         </div>
       </div>
     </div>
-
-   
   </div> <!-- .site-wrap -->
   <script async src="https://www.vbt.io/ext/vbtforms.js?lang=en" charset="utf-8"></script>
   <script src="js/jquery-3.3.1.min.js"></script>
